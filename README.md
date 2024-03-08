@@ -63,7 +63,20 @@ Y= A⊕B
 
 
 **PROGRAM**
+```
+module gates_exp1(a, b, c, d, e, x, y, z);
+  input a, b;
+  output c, d, e, x, y, z;
 
+  assign c = a & b;   // AND gate
+  assign d = a | b;   // OR gate
+  assign e = a ^ b;   // XOR gate
+  assign x = ~(a & b); // NAND gate
+  assign y = ~(a | b); // NOR gate
+  assign z = ~(a ^ b); // XNOR gate
+
+endmodule
+````
 Program for logic gates and verify its truth table in quartus using Verilog programming
 
  Developed by:  SHANMUGA RAJ.K
@@ -71,14 +84,14 @@ Program for logic gates and verify its truth table in quartus using Verilog prog
  RegisterNumber: 212223040192
  
 **Logic symbol & Truthtable**
-![Screenshot 2024-03-08 140930](https://github.com/K-Shanmugaraj/study-of-basic-gates/assets/144870425/62c31874-954f-4c8b-885e-93b77f30c7d2)
-![Screenshot 2024-03-08 141947](https://github.com/K-Shanmugaraj/study-of-basic-gates/assets/144870425/00b756b8-bc9f-4765-a5bb-f1ed4b3b32af)
+![Screenshot 2024-03-08 140930](https://github.com/K-Shanmugaraj/study-of-basic-gates/assets/144870425/7fdadd6c-2a13-4927-aa2f-47f1f318f9c1)
+![Screenshot 2024-03-08 141947](https://github.com/K-Shanmugaraj/study-of-basic-gates/assets/144870425/47754f9c-1911-4f7b-842e-5c5255930ec8)
 
 **RTL realization Output:** 
-![Screenshot 2024-03-08 133946](https://github.com/K-Shanmugaraj/study-of-basic-gates/assets/144870425/01e068af-7230-48aa-b0e2-c7c85c9e3814)
+![Screenshot 2024-03-08 133946](https://github.com/K-Shanmugaraj/study-of-basic-gates/assets/144870425/f4adab64-65fc-47ee-8df1-28cdf0ac6b5a)
 
 **RTL**
-![exp_11](https://github.com/K-Shanmugaraj/study-of-basic-gates/assets/144870425/a929dc83-180f-49f5-bd5f-335dd552c626)
+![exp_11](https://github.com/K-Shanmugaraj/study-of-basic-gates/assets/144870425/c5cc3940-29bf-4c8b-be10-efd42702a3e4)
 
 **Result:**
 
